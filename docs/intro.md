@@ -100,9 +100,9 @@ const myBaseStats = {
 
 ## 📚 Recent Blog Posts
 
-1. [Optimizing Smart Contracts for Base L2](/blog/optimizing-base)
-2. [Base vs Other L2s: Performance Analysis](/blog/base-comparison)
-3. [Building DeFi on Base: Best Practices](/blog/defi-base)
+1. [Optimizing Smart Contracts for Base L2](https://medium.com/@FoodGoods/optimizing-base)
+2. [Base vs Other L2s: Performance Analysis](https://dev.to/foodgoods/base-comparison)
+3. [Building DeFi on Base: Best Practices](https://mirror.xyz/FoodGoods/defi-base)
 
 ## 🎖️ Achievements
 
