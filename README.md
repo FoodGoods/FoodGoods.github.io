@@ -1,41 +1,26 @@
-# Website
+# 🔵 Base L2 Developer Showcase
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Professional developer portfolio showcasing contributions to Coinbase's Base ecosystem.
 
-## Installation
+## 🚀 About
 
-```bash
-yarn
-```
+Building the future of onchain applications on Base Layer 2, focusing on:
 
-## Local Development
+- Gas-optimized smart contracts
+- DeFi protocols and yield optimization
+- Open source developer tools
+- Base ecosystem contributions
 
-```bash
-yarn start
-```
+## 🛠️ Tech Stack
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- **Framework**: Docusaurus
+- **Styling**: Custom CSS with Base brand colors
+- **Deployment**: GitHub Pages
 
-## Build
+## 🌐 Live Site
 
-```bash
-yarn build
-```
+Visit: [foodgoods.github.io](https://foodgoods.github.io)
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+*Building on Base since 2024*
