@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Base Chain Official Colors */
+:root {
+  /* Base Blue - Official Brand Color */
+  --ifm-color-primary: #0052FF;
+  --ifm-color-primary-dark: #0047e6;
+  --ifm-color-primary-darker: #0043d9;
+  --ifm-color-primary-darkest: #0038b3;
+  --ifm-color-primary-light: #1a5dff;
+  --ifm-color-primary-lighter: #2664ff;
+  --ifm-color-primary-lightest: #4d7aff;
+
+  /* Additional Base Brand Colors */
+  --base-blue: #0052FF;
+  --base-black: #000000;
+  --base-white: #FFFFFF;
+  --base-light-blue: #E6F0FF;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 82, 255, 0.1);
+
+  /* Enhanced for Base branding */
+  --ifm-navbar-background-color: var(--base-white);
+  --ifm-navbar-link-color: var(--base-black);
+  --ifm-link-color: var(--base-blue);
+}
+
+/* Dark mode with Base colors */
+[data-theme='dark'] {
+  --ifm-color-primary: #4d7aff;
+  --ifm-color-primary-dark: #3366ff;
+  --ifm-color-primary-darker: #2659ff;
+  --ifm-color-primary-darkest: #0040e6;
+  --ifm-color-primary-light: #668eff;
+  --ifm-color-primary-lighter: #7399ff;
+  --ifm-color-primary-lightest: #99b8ff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(77, 122, 255, 0.3);
+  --ifm-background-color: #0a0a0a;
+  --ifm-navbar-background-color: #1a1a1a;
+}
+
+/* Custom Base styling */
+.hero__title {
+  background: linear-gradient(45deg, var(--base-blue), #4d7aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar__brand:hover {
+  color: var(--base-blue);
+}
+
+/* Base button styling */
+.button--primary {
+  background-color: var(--base-blue);
+  border-color: var(--base-blue);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Highlight Base metrics */
+.base-metrics {
+  background: linear-gradient(135deg, var(--base-light-blue), #f0f7ff);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--base-blue);
+}
+
+[data-theme='dark'] .base-metrics {
+  background: linear-gradient(135deg, rgba(0, 82, 255, 0.1), rgba(77, 122, 255, 0.05));
+}
