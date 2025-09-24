@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Base L2 Smart Contracts',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Building gas-optimized smart contracts on Coinbase's Base Layer 2,
+        achieving 65% cost savings compared to Ethereum mainnet.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'DeFi Protocols & TVL',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Deployed DeFi protocols with <strong>$2M+ TVL</strong> on Base,
+        including DEX optimization and yield farming strategies.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Open Source Base Tools',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Created developer tools for the Base ecosystem with <strong>2.5K+ GitHub stars</strong>.
+        Contributing to Base's growth and developer experience.
       </>
     ),
   },

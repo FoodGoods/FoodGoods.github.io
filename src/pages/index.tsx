@@ -19,9 +19,15 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            View My Base Projects 🔵
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            href="https://github.com/FoodGoods"
+            style={{marginLeft: '10px'}}>
+            GitHub Profile ⚡
           </Link>
         </div>
       </div>
